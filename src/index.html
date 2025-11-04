@@ -1,0 +1,713 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Title Website -->
+    <title>BTSNet - Bintang Timur SNet</title>
+
+    <!-- CSS Output Connector  -->
+    <link href="./output.css" rel="stylesheet" />
+
+    <!-- Font Connector (Google - Special Gothic)-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Special+Gothic:wght@400..700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body class="font-['Ubuntu']">
+    <!-- Navbar -->
+    <nav class="bg-white shadow-md fixed w-full top-0 z-50">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex justify-between items-center h-16">
+          <div class="flex items-center">
+            <h1
+              class="text-2xl font-bold text-blue-600 font-['Special_Gothic'] animate-pulse-soft"
+            >
+              BTSNet
+            </h1>
+          </div>
+
+          <!-- Desktop Menu -->
+          <div class="hidden md:flex space-x-8">
+            <a
+              href="#beranda"
+              class="text-gray-700 hover:text-blue-600 font-medium transition-colors duration-300"
+              >Beranda</a
+            >
+            <a
+              href="#paket"
+              class="text-gray-700 hover:text-blue-600 font-medium transition-colors duration-300"
+              >Paket Internet</a
+            >
+            <a
+              href="#layanan"
+              class="text-gray-700 hover:text-blue-600 font-medium transition-colors duration-300"
+              >Layanan</a
+            >
+            <a
+              href="#kontak"
+              class="text-gray-700 hover:text-blue-600 font-medium transition-colors duration-300"
+              >Kontak</a
+            >
+          </div>
+
+          <!-- Desktop CTA Button -->
+          <a
+            href="https://wa.me/6285262326376?text=Halo%20BTSNet%2C%20saya%20ingin%20berlangganan%20internet"
+            target="_blank"
+            class="hidden md:inline-block bg-blue-600 text-white px-6 py-2 rounded-lg hover:bg-blue-700 hover:shadow-lg transform hover:scale-105 font-semibold btn-hover transition-all duration-300"
+          >
+            Berlangganan
+          </a>
+
+          <!-- Mobile Hamburger Menu -->
+          <button
+            id="hamburger"
+            class="md:hidden text-gray-700 hover:text-blue-600 focus:outline-none"
+          >
+            <div class="hamburger">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+          </button>
+        </div>
+
+        <!-- Mobile Menu -->
+        <div
+          id="mobileMenu"
+          class="mobile-menu md:hidden bg-white border-t border-gray-100"
+        >
+          <div class="px-4 py-4 space-y-3">
+            <a
+              href="#beranda"
+              class="block text-gray-700 hover:text-blue-600 py-2 font-medium transition-colors"
+              >Beranda</a
+            >
+            <a
+              href="#paket"
+              class="block text-gray-700 hover:text-blue-600 py-2 font-medium transition-colors"
+              >Paket Internet</a
+            >
+            <a
+              href="#layanan"
+              class="block text-gray-700 hover:text-blue-600 py-2 font-medium transition-colors"
+              >Layanan</a
+            >
+            <a
+              href="#kontak"
+              class="block text-gray-700 hover:text-blue-600 py-2 font-medium transition-colors"
+              >Kontak</a
+            >
+            <a
+              href="https://wa.me/6285262326376?text=Halo%20BTSNet%2C%20saya%20ingin%20berlangganan%20internet"
+              target="_blank"
+              class="block w-full bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 text-center font-semibold mt-4 btn-hover"
+            >
+              Berlangganan
+            </a>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section
+      id="beranda"
+      class="pt-24 pb-16 bg-gradient-to-br from-blue-50 to-white"
+    >
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid md:grid-cols-2 gap-8 md:gap-12 items-center">
+          <div class="fade-in-up">
+            <h2
+              class="text-4xl md:text-5xl font-bold text-gray-900 mb-4 font-['Special_Gothic'] leading-tight"
+            >
+              Internet Cepat untuk Rumah Anda
+            </h2>
+            <p
+              class="text-lg md:text-xl text-gray-600 mb-6 md:mb-8 leading-relaxed"
+            >
+              Nikmati koneksi internet fiber optik hingga 30 Mbps dengan harga
+              terjangkau. Streaming, gaming, dan bekerja tanpa hambatan! Alat
+              WiFi gratis dititip + instalasi GRATIS!
+            </p>
+            <div class="flex flex-col sm:flex-row gap-4">
+              <a
+                href="#paket"
+                class="bg-blue-600 text-white px-6 md:px-8 py-3 rounded-lg hover:bg-blue-700 hover:shadow-lg transform hover:scale-105 transition-all duration-300 font-semibold btn-hover text-center"
+              >
+                Lihat Paket
+              </a>
+              <a
+                href="https://wa.me/6285262326376?text=Halo%20BTSNet%2C%20saya%20ingin%20informasi%20lebih%20lanjut"
+                target="_blank"
+                class="border-2 border-blue-600 text-blue-600 px-6 md:px-8 py-3 rounded-lg hover:bg-blue-50 hover:shadow-lg transform hover:scale-105 transition-all duration-300 font-semibold btn-hover text-center"
+              >
+                Hubungi Kami
+              </a>
+            </div>
+          </div>
+          <div
+            class="bg-gradient-to-br from-blue-100 to-blue-50 h-64 md:h-96 rounded-2xl flex items-center justify-center hover:shadow-xl transition-all duration-300 card-hover"
+          >
+            <div class="text-center">
+              <img
+                src="https://placeholder.com/400x300?text=Internet+Super+Cepat"
+                alt="Internet Super Cepat"
+                class="w-full h-full object-cover rounded-2xl"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Paket Internet Section -->
+    <section id="paket" class="py-16 md:py-20 bg-white">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-12 md:mb-16 fade-in-up">
+          <h2
+            class="text-4xl md:text-5xl font-bold text-gray-900 mb-4 font-['Special_Gothic']"
+          >
+            Pilih Paket Sesuai Kebutuhan
+          </h2>
+          <p class="text-gray-600 text-lg mb-2">
+            Berbagai pilihan paket internet dengan harga terbaik
+          </p>
+          <p class="text-green-600 font-semibold text-base md:text-lg">
+            ✓ Alat WiFi Gratis Dititp | ✓ Instalasi GRATIS
+          </p>
+        </div>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+          <!-- Paket 1 - 10 Mbps -->
+          <div
+            class="border-2 border-gray-200 rounded-2xl p-6 hover:border-blue-600 hover:shadow-2xl card-hover group overflow-hidden"
+          >
+            <div
+              class="bg-gradient-to-br from-blue-100 to-blue-50 h-40 rounded-xl mb-4 flex items-center justify-center group-hover:shadow-lg transition-all duration-300"
+            >
+              <img
+                src="https://placeholder.com/200x160?text=Paket+Hemat"
+                alt="Paket Hemat"
+                class="w-full h-full object-cover rounded-xl"
+              />
+            </div>
+            <h3
+              class="text-2xl font-bold text-gray-900 mb-2 group-hover:text-blue-600 transition-colors"
+            >
+              Paket Hemat
+            </h3>
+            <p class="text-gray-600 mb-4">Cocok untuk browsing & chatting</p>
+            <div class="mb-4">
+              <span class="text-4xl font-bold text-blue-600">100K</span>
+              <span class="text-gray-600 text-sm">/bulan</span>
+            </div>
+            <ul class="space-y-3 mb-6">
+              <li class="flex items-center text-gray-700 text-sm md:text-base">
+                <span class="text-green-500 mr-2 text-lg">✓</span> Kecepatan 10
+                Mbps
+              </li>
+              <li class="flex items-center text-gray-700 text-sm md:text-base">
+                <span class="text-green-500 mr-2 text-lg">✓</span> Unlimited
+                Quota
+              </li>
+              <li class="flex items-center text-gray-700 text-sm md:text-base">
+                <span class="text-green-500 mr-2 text-lg">✓</span> Alat WiFi
+                Gratis Dititip
+              </li>
+              <li class="flex items-center text-gray-700 text-sm md:text-base">
+                <span class="text-green-500 mr-2 text-lg">✓</span> Instalasi
+                GRATIS
+              </li>
+            </ul>
+            <a
+              href="https://wa.me/6285262326376?text=Halo%20BTSNet%2C%20saya%20ingin%20berlangganan%20*Paket%20Hemat%2010%20Mbps*%20Rp%20100.000%2Fbulan"
+              target="_blank"
+              class="block w-full bg-blue-600 text-white py-3 rounded-lg hover:bg-blue-700 hover:shadow-lg transform hover:scale-105 transition-all duration-300 font-semibold text-center btn-hover"
+            >
+              Pilih Paket
+            </a>
+          </div>
+
+          <!-- Paket 2 - 15 Mbps - Popular -->
+          <div
+            class="border-2 border-blue-600 rounded-2xl p-6 relative shadow-xl card-hover group transform md:scale-105 bg-white hover:shadow-2xl"
+          >
+            <div class="absolute -top-4 left-1/2 transform -translate-x-1/2">
+              <span
+                class="bg-blue-600 text-white px-4 md:px-6 py-1 rounded-full text-xs md:text-sm font-semibold shadow-lg"
+              >
+                TERPOPULER
+              </span>
+            </div>
+            <div
+              class="bg-gradient-to-br from-blue-100 to-blue-50 h-40 rounded-xl mb-4 flex items-center justify-center group-hover:shadow-lg transition-all duration-300"
+            >
+              <img
+                src="https://placeholder.com/200x160?text=Paket+Basic"
+                alt="Paket Basic"
+                class="w-full h-full object-cover rounded-xl"
+              />
+            </div>
+            <h3
+              class="text-2xl font-bold text-gray-900 mb-2 group-hover:text-blue-600 transition-colors"
+            >
+              Paket Basic
+            </h3>
+            <p class="text-gray-600 mb-4">Untuk streaming & keluarga</p>
+            <div class="mb-4">
+              <span class="text-4xl font-bold text-blue-600">150K</span>
+              <span class="text-gray-600 text-sm">/bulan</span>
+            </div>
+            <ul class="space-y-3 mb-6">
+              <li class="flex items-center text-gray-700 text-sm md:text-base">
+                <span class="text-green-500 mr-2 text-lg">✓</span> Kecepatan 15
+                Mbps
+              </li>
+              <li class="flex items-center text-gray-700 text-sm md:text-base">
+                <span class="text-green-500 mr-2 text-lg">✓</span> Unlimited
+                Quota
+              </li>
+              <li class="flex items-center text-gray-700 text-sm md:text-base">
+                <span class="text-green-500 mr-2 text-lg">✓</span> Alat WiFi
+                Gratis Dititip
+              </li>
+              <li class="flex items-center text-gray-700 text-sm md:text-base">
+                <span class="text-green-500 mr-2 text-lg">✓</span> Instalasi
+                GRATIS
+              </li>
+            </ul>
+            <a
+              href="https://wa.me/6285262326376?text=Halo%20BTSNet%2C%20saya%20ingin%20berlangganan%20*Paket%20Basic%2015%20Mbps*%20Rp%20150.000%2Fbulan"
+              target="_blank"
+              class="block w-full bg-blue-600 text-white py-3 rounded-lg hover:bg-blue-700 hover:shadow-lg transform hover:scale-105 transition-all duration-300 font-semibold text-center btn-hover"
+            >
+              Pilih Paket
+            </a>
+          </div>
+
+          <!-- Paket 3 - 20 Mbps -->
+          <div
+            class="border-2 border-gray-200 rounded-2xl p-6 hover:border-blue-600 hover:shadow-2xl card-hover group overflow-hidden"
+          >
+            <div
+              class="bg-gradient-to-br from-blue-100 to-blue-50 h-40 rounded-xl mb-4 flex items-center justify-center group-hover:shadow-lg transition-all duration-300"
+            >
+              <img
+                src="https://placeholder.com/200x160?text=Paket+Premium"
+                alt="Paket Premium"
+                class="w-full h-full object-cover rounded-xl"
+              />
+            </div>
+            <h3
+              class="text-2xl font-bold text-gray-900 mb-2 group-hover:text-blue-600 transition-colors"
+            >
+              Paket Premium
+            </h3>
+            <p class="text-gray-600 mb-4">Untuk gaming & streaming HD</p>
+            <div class="mb-4">
+              <span class="text-4xl font-bold text-blue-600">200K</span>
+              <span class="text-gray-600 text-sm">/bulan</span>
+            </div>
+            <ul class="space-y-3 mb-6">
+              <li class="flex items-center text-gray-700 text-sm md:text-base">
+                <span class="text-green-500 mr-2 text-lg">✓</span> Kecepatan 20
+                Mbps
+              </li>
+              <li class="flex items-center text-gray-700 text-sm md:text-base">
+                <span class="text-green-500 mr-2 text-lg">✓</span> Unlimited
+                Quota
+              </li>
+              <li class="flex items-center text-gray-700 text-sm md:text-base">
+                <span class="text-green-500 mr-2 text-lg">✓</span> Alat WiFi
+                Gratis Dititip
+              </li>
+              <li class="flex items-center text-gray-700 text-sm md:text-base">
+                <span class="text-green-500 mr-2 text-lg">✓</span> Instalasi
+                GRATIS
+              </li>
+            </ul>
+            <a
+              href="https://wa.me/6285262326376?text=Halo%20BTSNet%2C%20saya%20ingin%20berlangganan%20*Paket%20Premium%2020%20Mbps*%20Rp%20200.000%2Fbulan"
+              target="_blank"
+              class="block w-full bg-blue-600 text-white py-3 rounded-lg hover:bg-blue-700 hover:shadow-lg transform hover:scale-105 transition-all duration-300 font-semibold text-center btn-hover"
+            >
+              Pilih Paket
+            </a>
+          </div>
+
+          <!-- Paket 4 - 30 Mbps -->
+          <div
+            class="border-2 border-gray-200 rounded-2xl p-6 hover:border-blue-600 hover:shadow-2xl card-hover group overflow-hidden"
+          >
+            <div
+              class="bg-gradient-to-br from-blue-100 to-blue-50 h-40 rounded-xl mb-4 flex items-center justify-center group-hover:shadow-lg transition-all duration-300"
+            >
+              <img
+                src="https://placeholder.com/200x160?text=Paket+Ultimate"
+                alt="Paket Ultimate"
+                class="w-full h-full object-cover rounded-xl"
+              />
+            </div>
+            <h3
+              class="text-2xl font-bold text-gray-900 mb-2 group-hover:text-blue-600 transition-colors"
+            >
+              Paket Ultimate
+            </h3>
+            <p class="text-gray-600 mb-4">Untuk bisnis & profesional</p>
+            <div class="mb-4">
+              <span class="text-4xl font-bold text-blue-600">300K</span>
+              <span class="text-gray-600 text-sm">/bulan</span>
+            </div>
+            <ul class="space-y-3 mb-6">
+              <li class="flex items-center text-gray-700 text-sm md:text-base">
+                <span class="text-green-500 mr-2 text-lg">✓</span> Kecepatan 30
+                Mbps
+              </li>
+              <li class="flex items-center text-gray-700 text-sm md:text-base">
+                <span class="text-green-500 mr-2 text-lg">✓</span> Unlimited
+                Quota
+              </li>
+              <li class="flex items-center text-gray-700 text-sm md:text-base">
+                <span class="text-green-500 mr-2 text-lg">✓</span> Alat WiFi
+                Gratis Dititip
+              </li>
+              <li class="flex items-center text-gray-700 text-sm md:text-base">
+                <span class="text-green-500 mr-2 text-lg">✓</span> Instalasi
+                GRATIS
+              </li>
+            </ul>
+            <a
+              href="https://wa.me/6285262326376?text=Halo%20BTSNet%2C%20saya%20ingin%20berlangganan%20*Paket%20Ultimate%2030%20Mbps*%20Rp%20300.000%2Fbulan"
+              target="_blank"
+              class="block w-full bg-blue-600 text-white py-3 rounded-lg hover:bg-blue-700 hover:shadow-lg transform hover:scale-105 transition-all duration-300 font-semibold text-center btn-hover"
+            >
+              Pilih Paket
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Keunggulan Section -->
+    <section id="layanan" class="py-16 md:py-20 bg-gray-50">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-12 md:mb-16 fade-in-up">
+          <h2
+            class="text-4xl md:text-5xl font-bold text-gray-900 mb-4 font-['Special_Gothic']"
+          >
+            Mengapa Memilih BTSNet?
+          </h2>
+          <p class="text-gray-600 text-lg">
+            Layanan terbaik untuk koneksi internet Anda
+          </p>
+        </div>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+          <div
+            class="bg-white rounded-xl p-6 text-center hover:shadow-2xl card-hover group cursor-pointer"
+          >
+            <div
+              class="bg-blue-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4 group-hover:bg-blue-200 group-hover:scale-110 transition-all duration-300"
+            >
+              <span
+                class="text-blue-600 text-3xl font-bold animate-bounce-gentle"
+                >⚡</span
+              >
+            </div>
+            <h3
+              class="text-xl font-bold text-gray-900 mb-2 group-hover:text-blue-600 transition-colors"
+            >
+              Super Cepat
+            </h3>
+            <p class="text-gray-600">
+              Fiber optik dengan kecepatan stabil hingga 30 Mbps
+            </p>
+          </div>
+
+          <div
+            class="bg-white rounded-xl p-6 text-center hover:shadow-2xl card-hover group cursor-pointer"
+          >
+            <div
+              class="bg-blue-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4 group-hover:bg-blue-200 group-hover:scale-110 transition-all duration-300"
+            >
+              <span
+                class="text-blue-600 text-3xl font-bold animate-bounce-gentle"
+                >∞</span
+              >
+            </div>
+            <h3
+              class="text-xl font-bold text-gray-900 mb-2 group-hover:text-blue-600 transition-colors"
+            >
+              Unlimited
+            </h3>
+            <p class="text-gray-600">
+              Tanpa batasan kuota, streaming sepuasnya
+            </p>
+          </div>
+
+          <div
+            class="bg-white rounded-xl p-6 text-center hover:shadow-2xl card-hover group cursor-pointer"
+          >
+            <div
+              class="bg-blue-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4 group-hover:bg-blue-200 group-hover:scale-110 transition-all duration-300"
+            >
+              <span
+                class="text-blue-600 text-3xl font-bold animate-bounce-gentle"
+                >📶</span
+              >
+            </div>
+            <h3
+              class="text-xl font-bold text-gray-900 mb-2 group-hover:text-blue-600 transition-colors"
+            >
+              Alat WiFi Gratis
+            </h3>
+            <p class="text-gray-600">Alat WiFi Gratis Dititp, bebas biaya</p>
+          </div>
+
+          <div
+            class="bg-white rounded-xl p-6 text-center hover:shadow-2xl card-hover group cursor-pointer"
+          >
+            <div
+              class="bg-blue-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4 group-hover:bg-blue-200 group-hover:scale-110 transition-all duration-300"
+            >
+              <span
+                class="text-blue-600 text-3xl font-bold animate-bounce-gentle"
+                >💰</span
+              >
+            </div>
+            <h3
+              class="text-xl font-bold text-gray-900 mb-2 group-hover:text-blue-600 transition-colors"
+            >
+              Harga Terbaik
+            </h3>
+            <p class="text-gray-600">
+              Paket internet dengan harga paling terjangkau
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimoni Section -->
+    <section class="py-16 md:py-20 bg-white">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-12 md:mb-16 fade-in-up">
+          <h2
+            class="text-4xl md:text-5xl font-bold text-gray-900 mb-4 font-['Special_Gothic']"
+          >
+            Apa Kata Pelanggan Kami?
+          </h2>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8">
+          <div
+            class="bg-gray-50 rounded-xl p-6 md:p-8 hover:shadow-xl card-hover hover:bg-blue-50 transition-all duration-300"
+          >
+            <div class="flex items-center mb-4">
+              <div
+                class="bg-gradient-to-br from-blue-400 to-blue-600 w-12 h-12 rounded-full mr-4 flex items-center justify-center text-white font-bold text-lg"
+              >
+                MS
+              </div>
+              <div>
+                <h4 class="font-bold text-gray-900">Markus Sinaga</h4>
+                <p class="text-gray-600 text-sm">Pematang Panjang</p>
+              </div>
+            </div>
+            <p class="text-gray-700 leading-relaxed">
+              "Internet sangat cepat dan stabil. Cocok untuk keluarga yang
+              sering Internetan!
+            </p>
+            <div class="text-yellow-400 mt-4 text-lg">★★★★★</div>
+          </div>
+
+          <div
+            class="bg-gray-50 rounded-xl p-6 md:p-8 hover:shadow-xl card-hover hover:bg-blue-50 transition-all duration-300"
+          >
+            <div class="flex items-center mb-4">
+              <div
+                class="bg-gradient-to-br from-blue-400 to-blue-600 w-12 h-12 rounded-full mr-4 flex items-center justify-center text-white font-bold text-lg"
+              >
+                SR
+              </div>
+              <div>
+                <h4 class="font-bold text-gray-900">Siti Rahma</h4>
+                <p class="text-gray-600 text-sm">Simpang Gambus</p>
+              </div>
+            </div>
+            <p class="text-gray-700 leading-relaxed">
+              "Pelayanan sangat responsif. Harga juga terjangkau untuk kecepatan
+              yang didapat."
+            </p>
+            <div class="text-yellow-400 mt-4 text-lg">★★★★★</div>
+          </div>
+
+          <div
+            class="bg-gray-50 rounded-xl p-6 md:p-8 hover:shadow-xl card-hover hover:bg-blue-50 transition-all duration-300"
+          >
+            <div class="flex items-center mb-4">
+              <div
+                class="bg-gradient-to-br from-green-400 to-green-600 w-12 h-12 rounded-full mr-4 flex items-center justify-center text-white font-bold text-lg"
+              >
+                AR
+              </div>
+              <div>
+                <h4 class="font-bold text-gray-900">Ahmad Rizki</h4>
+                <p class="text-gray-600 text-sm">Gelembis</p>
+              </div>
+            </div>
+            <p class="text-gray-700 leading-relaxed">
+              "Sudah 2 tahun pakai BTSNet, tidak pernah kecewa."
+            </p>
+            <div class="text-yellow-400 mt-4 text-lg">★★★★★</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section
+      class="py-16 md:py-20 bg-gradient-to-r from-blue-600 to-blue-700 relative overflow-hidden"
+    >
+      <!-- Animated background elements -->
+      <div class="absolute inset-0 opacity-10">
+        <div
+          class="absolute top-0 left-0 w-96 h-96 bg-blue-400 rounded-full mix-blend-multiply filter blur-3xl animate-pulse-soft"
+        ></div>
+        <div
+          class="absolute bottom-0 right-0 w-96 h-96 bg-blue-500 rounded-full mix-blend-multiply filter blur-3xl animate-pulse-soft"
+        ></div>
+      </div>
+
+      <div class="max-w-4xl mx-auto text-center px-4 relative z-10">
+        <h2
+          class="text-3xl md:text-4xl font-bold text-white mb-4 font-['Special_Gothic']"
+        >
+          Siap Nikmati Internet Super Cepat?
+        </h2>
+        <p class="text-white text-base md:text-lg mb-8 leading-relaxed">
+          Daftar sekarang dan dapatkan Alat WiFi Gratis Dititp + instalasi
+          GRATIS!
+        </p>
+        <a
+          href="https://wa.me/6285262326376?text=Halo%20BTSNet%2C%20saya%20ingin%20berlangganan%20internet"
+          target="_blank"
+          class="inline-block bg-white text-blue-600 px-8 md:px-10 py-3 md:py-4 rounded-lg hover:bg-gray-100 hover:shadow-2xl transform hover:scale-105 transition-all duration-300 font-semibold text-base md:text-lg btn-hover"
+        >
+          Berlangganan Sekarang
+        </a>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="kontak" class="bg-gray-900 text-white py-12 md:py-16">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+          <div class="fade-in-up">
+            <h3
+              class="text-2xl font-bold mb-4 font-['Special_Gothic'] text-blue-400"
+            >
+              BTSNet
+            </h3>
+            <p class="text-gray-400 leading-relaxed">
+              Penyedia layanan internet fiber optik terpercaya untuk rumah dan
+              bisnis Anda.
+            </p>
+          </div>
+
+          <div>
+            <h4 class="text-lg font-semibold mb-4 text-blue-400">Layanan</h4>
+            <ul class="space-y-2 text-gray-400">
+              <li>
+                <a
+                  href="#paket"
+                  class="hover:text-white hover:translate-x-1 transition-all duration-300 inline-block"
+                  >→ Internet Rumah</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#paket"
+                  class="hover:text-white hover:translate-x-1 transition-all duration-300 inline-block"
+                  >→ Paket Internet</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#layanan"
+                  class="hover:text-white hover:translate-x-1 transition-all duration-300 inline-block"
+                  >→ Keunggulan</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <div>
+            <h4 class="text-lg font-semibold mb-4 text-blue-400">Perusahaan</h4>
+            <ul class="space-y-2 text-gray-400">
+              <li>
+                <a
+                  href="#beranda"
+                  class="hover:text-white hover:translate-x-1 transition-all duration-300 inline-block"
+                  >→ Tentang Kami</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://wa.me/6285262326376?text=Halo%20BTSNet%2C%20saya%20ingin%20informasi%20karir"
+                  target="_blank"
+                  class="hover:text-white hover:translate-x-1 transition-all duration-300 inline-block"
+                  >→ Karir</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#beranda"
+                  class="hover:text-white hover:translate-x-1 transition-all duration-300 inline-block"
+                  >→ Blog</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <div>
+            <h4 class="text-lg font-semibold mb-4 text-blue-400">Kontak</h4>
+            <ul class="space-y-3 text-gray-400">
+              <li class="flex items-center hover:text-white transition-colors">
+                <span class="mr-2">📧</span>info@btsnet.id
+              </li>
+              <li>
+                <a
+                  href="https://wa.me/6285262326376"
+                  target="_blank"
+                  class="flex items-center hover:text-white hover:translate-x-1 transition-all duration-300"
+                >
+                  <span class="mr-2">📱</span>0852-6232-6376
+                </a>
+              </li>
+              <li class="flex items-center">
+                <span class="mr-2">📍</span>Pematang Panjang, Batubara
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div
+          class="border-t border-gray-800 mt-12 pt-8 text-center text-gray-400"
+        >
+          <p>&copy; 2025 BTSNet - Bintang Timur SNet. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- JavaScript File Connector -->
+    <script src="./script.js"></script>
+  </body>
+</html>
